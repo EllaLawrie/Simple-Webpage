@@ -1,0 +1,167 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-size: 16px;
+}
+
+*::before,
+*::after {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+/* :root {
+} */
+
+body {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+main {
+  width: 100%;
+  max-width: 1200px;
+  margin: 2rem auto;
+  padding: 1rem 0;
+  box-sizing: border-box;
+  background-image: linear-gradient(
+    to top,
+    #fdcbf1 0%,
+    #fdcbf1 1%,
+    #e6dee9 100%
+  );
+}
+
+.wrapper {
+  width: 95%;
+  margin: auto;
+  border-radius: 10px;
+  background-image: linear-gradient(120deg, #fdfbfb 0%, #ebedee 100%);
+}
+
+.logo {
+  height: 50px;
+  width: 50px;
+}
+
+.logo img {
+  margin: auto;
+  width: 100%;
+}
+
+.nav-main {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1rem 0;
+}
+
+.nav-menu {
+  display: flex;
+  align-items: center;
+  list-style-type: none;
+}
+
+.nav-menu > li {
+  margin: 15px;
+}
+
+.nav-btn {
+  background-color: #333;
+  border-radius: 5px;
+  color: #fff;
+  padding: 8px 16px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 14.4px;
+}
+
+section {
+  width: 100%;
+  padding: 1rem 0;
+}
+
+.container {
+  width: 90%;
+  max-width: 1024px;
+  margin: 0 auto;
+}
+
+.intro {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  max-width: 850px;
+  margin: auto;
+  grid-gap: 2.5rem;
+  margin-top: 4rem;
+}
+
+.intro__image > img {
+  max-width: 300px;
+  max-height: 300px;
+  border-radius: 20px;
+  margin: auto;
+}
+
+.intro__text > h2 {
+  font-size: 3.5rem;
+  font-weight: 800;
+  margin-bottom: 5px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.intro__text > p {
+  font-size: 1.2rem;
+  font-weight: 500;
+  line-height: 1.5;
+  margin-top: 1rem;
+}
+
+.about {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin-top: 5rem;
+  max-width: 850px;
+  margin: auto;
+  grid-gap: 2.5rem;
+}
+
+.about > div {
+  margin-bottom: 2rem;
+  width: 90%;
+  margin-top: 4rem;
+}
+
+.about > div > h2 {
+  font-weight: 500px;
+  font-size: 1.5rem;
+  margin-bottom: 0.8rem;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.about > div > p {
+  line-height: 1.5rem;
+}
+
+.skills ul li {
+  font-weight: 600;
+  font-size: 0.75rem;
+  border: 1px solid #ddd;
+  border-radius: 2px;
+  padding: 4px;
+  background-color: #e6dee9;
+  color: #555;
+}
+
+ul {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  list-style-type: none;
+  margin: 0.7rem auto;
+  gap: 10px;
+}
+
+ul li {
+  font-weight: 500;
+  font-size: 0.9rem;
+}
